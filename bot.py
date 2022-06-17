@@ -303,7 +303,7 @@ def cancel(update: Update, context: CallbackContext) -> int:
 def main() -> None:
     """Arranca el bot."""
     # Crear el updater y pasarle el token del bot.
-    updater = Updater("5029909552:AAH0hy82GD_EicAyFBajTmVTg1qy-tJaVJY")
+    updater = Updater("xxxxxxxxxxxxxxx")
 
     # Preparar el dispatcher para registrar los handlers
     dispatcher = updater.dispatcher
